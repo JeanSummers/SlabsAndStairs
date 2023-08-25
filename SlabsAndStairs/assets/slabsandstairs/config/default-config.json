@@ -1,0 +1,47 @@
+{
+  "recipes": [
+    {
+      "block": "stonepath-free",
+      "slab": "stonepathslab-free",
+      "stairs": "stonepathstairs-up-north-free"
+    },
+    {
+      "block": "quartz-plain",
+      "slab": "quartzslab-down-free",
+      "stairs": "quartzstairs-up-north-free"
+    },
+    {
+      "block": "planks-*-ns",
+      "slab": "plankslab-*-down-free",
+      "stairs": "plankstairs-*-up-north-free"
+    },
+    {
+      "block": "cobblestone-*",
+      "slab": "cobblestoneslab-*-down-free",
+      "stairs": "cobblestonestairs-*-up-north-free"
+    },
+    {
+      "block": "stonebricks-*",
+      "slab": "stonebrickslab-*-down-free",
+      "stairs": "stonebrickstairs-*-up-north-free"
+    },
+    {
+      "block": "claybricks-*",
+      "slab": "brickslabs-*-down-free",
+      "stairs": "brickstairs-*-up-north-free"
+    },
+    {
+      "block": "clayshingleblock-*",
+      "slab": "clayshinglelabs-*-down-free",
+      "stairs": "clayshinglestairs-*-up-north-free"
+    },
+    {
+      "block": "rockpolished-*",
+      "slab": "polishedrockslab-*-down-free"
+    },
+    {
+      "block": "glass-*",
+      "slab": "glassslab-*-down-free"
+    }
+  ]
+}
