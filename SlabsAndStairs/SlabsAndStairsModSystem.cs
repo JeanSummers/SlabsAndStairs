@@ -21,12 +21,11 @@ namespace SlabsAndStairs
 
             var watch = System.Diagnostics.Stopwatch.StartNew();
             var count = api.World.GridRecipes.Count;
-            api.Logger.Debug($"XXX1 {count}");
 
             CreateRecipes();
 
             watch.Stop();
-            api.Logger.Debug($"XXX2 {api.World.GridRecipes.Count}(+{api.World.GridRecipes.Count - count}) {watch.ElapsedMilliseconds}ms");
+            api.Logger.Debug($"SlabsAndStairs registered {api.World.GridRecipes.Count - count} recipes in {watch.ElapsedMilliseconds}ms");
         }
 
         void CreateRecipes()
