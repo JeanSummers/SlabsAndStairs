@@ -5,8 +5,10 @@
   "authors": [
     "MistAway"
   ],
-  "description": "To be added",
+  "description": "Easily convert between blocks, slabs and stairs",
   "version": "1.0.0",
+  "side": "Server",
+  "requiredOnServer": true,
   "dependencies": {
     "game": ""
   }
